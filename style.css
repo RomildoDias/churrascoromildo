@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size:auto;
+    text-decoration: none;
+   
+}
+html{
+    scroll-behavior: smooth;  
+}
+body{
+    background-image:  linear-gradient(to bottom right , rgb(228, 46, 46) , rgb(61, 21, 21));
+    
+}
+section#escolha{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;   
+    padding-top: 90px; 
+    
+}
+section.produtos{
+    display: flex;
+    flex-flow: column wrap ;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;  
+    background-color: rgb(216, 215, 173); 
+    padding-top: 90px; 
+}
+section#lista-convidados{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 90px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(216, 215, 173);
+    color: rgb(94, 4, 4); 
+}  
+.inicio-texto{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+    color: #fff;
+    gap: 10px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 25px;
+    width: 500px;
+    border-right: 0.4px solid rgb(13, 105, 5);
+}
+.texto h1{
+    font-size: 40px;
+    color: rgb(233, 27, 20);
+    text-shadow: 0px 0px 10px rgb(245, 21, 21);
+}
+.img-logo{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.texto p{
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 5px;
+    color: bisque;
+}
+.cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(27, 1, 1, 0.753);
+    border-bottom: 2px solid rgb(3, 19, 1);
+}
+.cabecalho h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 0px 0px 15px rgb(4, 196, 45);
+    margin-left: 10px;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+nav{
+    display: flex;
+    gap : 20px;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    text-transform: uppercase;
+    font-size: 15px;
+    color:  rgb(244, 247, 111);
+    padding: 15px;
+    transition:  500ms ease-in-out;
+   
+}
+nav a:hover{
+    background-color: rgba(105, 29, 24, 0.993);
+    color: #fff;
+}
+.colecao{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.produto-itens img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+
+}
+.produto-itens img{
+    flex: 1 1 200px;
+}
+#produtos h2{
+    font-size: 50px;
+    padding: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:rgb(243, 22, 14) ;
+    text-shadow: 0px 0px 5px rgb(250, 140, 113);
+    
+    
+}
+.descricao{
+    border-left: 5px solid rgb(134, 27, 27);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #d4210a;
+}
+.desc{
+    font-size: 20px;
+}
+.rodape{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    color: rgb(32, 133, 19);
+}
+.rodape p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(68, 124, 60);
+    word-spacing: 8px;
+    letter-spacing: 1.5px;
+}
+input[type=text], select {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .form-escolha{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      height: 50%;
+      margin-bottom: 4rem;
+  }
+  .titulo-escolha{
+      color: rgb(226, 238, 121);
+      font-size: 3em;
+  }
+  .titulo-lista{
+      font-size: 3rem;
+      text-shadow: 0px 0px 15px orangered;
+      margin-bottom: 5rem;
+  }
+  .tabela-lista {
+      table-layout: auto;
+      border: 2px solid #d4210a;
+      border-collapse: collapse;
+     
+      
+  }
+  caption{
+      border: 2px solid #d4210a;
+      padding: 12px;
+      background-color: #d4210a;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color:rgb(244, 247, 111) ;
+  }
+   th  {
+      padding: 15px;
+      border: 1px solid #d4210a;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+  }
+  td  {
+    padding: 10px;
+    border: 1px solid #d4210a;
+    font-size: 1.2rem;
+    text-align: center;
+}
+  
+    
