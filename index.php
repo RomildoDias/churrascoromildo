@@ -34,59 +34,59 @@
           <div class="produto-itens">
             <img src="carvao.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Carvão</h3>
+              <h3 class="desc">5 sacos de Carvão </h3>
               
             </div>
           </div>
           <div class="produto-itens">
             <img src="copo.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Copos</h3>
+              <h3 class="desc">3 pacotes de Copos</h3>
              
             </div>
           </div>
           <div class="produto-itens">
             <img src="talheres.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Garfos e Facas</h3>  
+              <h3 class="desc">2 pacotes de Garfos e Facas</h3>  
             </div>
           </div>
           <div class="produto-itens">
             <img src="toscana.jpeg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Toscana</h3>
+              <h3 class="desc">3 kg de Toscana</h3>
             </div>
           </div>
           <div class="produto-itens">
             <img src="picanha.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Picanha</h3> 
+              <h3 class="desc">3kg de Picanha</h3> 
             </div>
           </div>
           <div class="produto-itens">
             <img src="alcatra.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Alcatra</h3>  
+              <h3 class="desc">2kg de Alcatra</h3>  
             </div>
           </div>
           <div class="produto-itens">
             <img src="costela.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Costela</h3>
+              <h3 class="desc">3kg de Costela</h3>
               
             </div>
           </div>
           <div class="produto-itens">
             <img src="contrafile.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Contra-filé</h3>
+              <h3 class="desc">2kg de Contra-filé</h3>
               
             </div>
           </div>
           <div class="produto-itens">
             <img src="maminha.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Maminha</h3>
+              <h3 class="desc">2,5kg de Maminha</h3>
               
             </div>
           </div>
@@ -100,35 +100,35 @@
           <div class="produto-itens">
             <img src="farofa.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Farofa</h3>
+              <h3 class="desc">5kg de Farofa</h3>
              
             </div>
           </div>
           <div class="produto-itens">
             <img src="sucos.jpg" alt="" />
             <div class="descricao">
-              <h3 class="desc">Sucos</h3>
+              <h3 class="desc">10L de Sucos</h3>
              
             </div>
           </div>
             <div class="produto-itens">
               <img src="refri.jpg" alt="" />
               <div class="descricao">
-                <h3 class="desc">Refrigerantes</h3>
+                <h3 class="desc"> 2L de cada Refrigerantes</h3>
                
               </div>
             </div>
               <div class="produto-itens">
                 <img src="cerveja.jpg" alt="" />
                 <div class="descricao">
-                  <h3 class="desc">Cervejas</h3>
+                  <h3 class="desc">2Cx de Cervejas</h3>
                  
                 </div>
               </div>
                 <div class="produto-itens">
                   <img src="bebidas.jpg" alt="" />
                   <div class="descricao">
-                    <h3 class="desc">bebidas Quentes</h3>
+                    <h3 class="desc">2L de bebidas Quentes</h3>
                    
                   </div>
                 </div>
@@ -150,6 +150,7 @@
               />
               <label for="acompanhates">Você e mais quantas pessoas:</label>
               <select id="acompanhate" name="acompanhante">
+                <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
