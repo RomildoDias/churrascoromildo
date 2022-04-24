@@ -210,8 +210,16 @@
     ?>
             </tbody>
         </table>
+        
+        </div>
+        <div class="texto-media">
+        <h3 class="media">A média de consumo de sólidos é de <strong>400g por pessoa.</strong></h3>
+        <h3 class="media">A media de consumo de líquido e de <strong>1l por pessoa.</strong></h3>
         </div>
       </section>
+      <footer class="rodape">
+        <h2>Desenvolvido por Romildo Dias Cardoso</h2>
+      </footer>
     </main>
 
   </body>

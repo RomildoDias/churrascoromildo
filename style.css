@@ -41,7 +41,7 @@ section#lista-convidados{
     align-items:center;
     padding: 90px;
     width: 100vw;
-    height: 100vh;
+   
     background-color: rgb(216, 215, 173);
     color: rgb(94, 4, 4); 
 }  
@@ -169,7 +169,7 @@ nav a:hover{
 }
 .rodape{
     width: 100%;
-    background-color: black;
+    background-color: rgb(78, 5, 5);
     color: #fff;
     padding: 15px;
     display: flex;
@@ -179,7 +179,7 @@ nav a:hover{
 .rodape h2{
     font-family: 'Shadows Into Light', cursive;
     font-size: 30px;
-    color: rgb(32, 133, 19);
+    color: rgb(245, 253, 127);
 }
 .rodape p{
     font-size: 20px;
@@ -233,6 +233,7 @@ input[type=text], select {
       display: block;
       max-height: 400px;
       overflow-x: hidden;
+      margin-bottom: 3rem;
   }
   .titulo-lista{
       font-size: 3rem;
@@ -245,7 +246,6 @@ input[type=text], select {
       table-layout: auto;
       border: 2px solid #d4210a;
       border-collapse: collapse;
-     
       cursor: pointer;
   }
  
@@ -258,16 +258,24 @@ input[type=text], select {
       color:rgb(244, 247, 111) ;
   }
    th  {
-      padding: 15px;
+      padding: 10px;
       border: 1px solid #d4210a;
       font-size: 1.2rem;
       text-transform: uppercase;
   }
   td  {
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #d4210a;
     font-size: 1.2rem;
     text-align: center;
+    background-color: #f1f1f1;
+    font-weight: bolder;
 }
+ .texto-media h3 {
+    font-size: 2em;
+   
+
+ }
+
   
     
